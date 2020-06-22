@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>炎凉立夏 - 自制程序资源下载站，欢迎访问我的主页!!</title>
+	<script src="plugin/jquery/jquery-3.4.1.min.js"></script> 
+	<script src="plugin/layui/layui.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/> 
+    <link rel="stylesheet" href="plugin/layui/css/layui.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <header>
+        <div class="layui-row subject-color nav-row">
+            <div class="main-content nav-menu">
+                <div class="layui-row">
+                    <div class="layui-col-md2 logo-box">
+                        <a href="#" title="首页">
+                            <img src="imgs/canreplace/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="layui-col-md7 menu-box">
+                        <ul class="menu-ul">
+                           <a href="index.html">
+                               <li>首页</li>
+                           </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-content item-box">
+        <div class="item-left">
+            <div class="layui-row carousel-box">
+                <div class="layui-carousel" id="my-carousel" lay-filter="carouselimg">
+                    <div carousel-item>
+                        <div><img src="imgs/cover/GameApp1.jpg"/></div>
+                        <div><img src="imgs/cover/OldEightVoiceTools.jpg"/></div>
+                        <div><img src="imgs/cover/DVD300NesGames.jpg"/></div>
+                        <div><img src="imgs/cover/LocalGameLaunchCenter.jpg"/></div>
+						<div><img src="imgs/cover/ConfessionArtifact.jpg"/></div>
+						<div><img src="imgs/Kirby.png"/></div>
+						<div><img src="imgs/zhuanye.jpg"/></div>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-row box-bg lunbo-textbox">
+                <a class="font-size2 font-color1 cursor-pointer">自制游戏【阴阳道士驱魔传】</a>
+            </div>
+            <div class="three-pane-box layui-row layui-col-space20">
+                <div class="layui-col-md4">
+                    <div class="col-nei-div cursor-pointer pane-radius">
+                        <img src="imgs/cover/OldEightVoiceTools.jpg"/>
+                    </div>
+                    <div class="item-text-div bottom-radius layui-elip">
+                        <a href="https://www.bilibili.com/video/BV1YV411d7ia" target="_blank" class="cursor-pointer">自制程序【老八语音包工具】</a>
+                    </div>
+                </div>
+                <div class="layui-col-md4">
+                    <div class="col-nei-div cursor-pointer pane-radius">
+                        <img src="imgs/cover/DVD300NesGames.jpg"/>
+                    </div>
+                    <div class="item-text-div bottom-radius layui-elip">
+                        <a href="https://www.bilibili.com/video/BV1hf4y1U7a9" target="_blank" class="cursor-pointer">自制程序【DVD中文游戏300 PC怀旧版】</a>
+                    </div>
+                </div>
+                <div class="layui-col-md4">
+                    <div class="col-nei-div cursor-pointer pane-radius">
+                        <img src="imgs/cover/LocalGameLaunchCenter.jpg"/>
+                    </div>
+                    <div class="item-text-div bottom-radius layui-elip">
+                        <a href="https://www.bilibili.com/video/BV1Sz4y197w8" target="_blank" class="cursor-pointer">自制程序【本地游戏启动中心】</a>
+                    </div>
+                </div>
+            </div>
+            <div class="one-sharetype-box layui-row box-bg">
+                <div class="layui-col-md5">
+                    <div class="item-img-box">
+                        <img src="imgs/zhuanye.jpg"/>
+                    </div>
+                </div>
+                <div class="oneshare-content layui-col-md7">
+                    <h3 class="font-bold2 font-size3 font-color4 layui-elip">欢迎访问我的博客空间</h3>
+                    <div class="oneshare-msg-row layui-row font-color3 font-size1">
+                        <p>
+							Me:一个想搞点事情的程序猿兼菜鸡游戏玩家。我的程序设计理念是：让程序有灵魂且人性化及个性化。
+							这里面分享的都是我自制程序的资源以及其他的资源分享，欢迎各位加我的联系方式来互相交流或者探讨技术！！
+						</p>
+                    </div>
+                    <div class="look-more layui-row">
+                        <a href="http://user.qzone.qq.com/2213407066" target = "_blank" class="layui-btn layui-btn-sm pane-radius subject-color">查看我的 QQ空间</a>
+                        <a href="http://space.bilibili.com/21018717" target = "_blank" class="layui-btn layui-btn-sm layui-btn-normal pane-radius">查看我的 BiliBili 主页空间</a>
+                    </div>
+                </div>
+            </div>
+            <div class="heng-guangao layui-row box-bg">
+                <img src="imgs/hengguangao.jpg">
+            </div>
+            <div class="zonhe-row layui-row">
+                <div class="item-title-row layui-row row-align">
+                    <div class="layui-col-md10 row-align font-size2">
+                        <div class="left-icon"></div>
+                        <span class="font-bold">HOT !! 热门自制游戏集</span>
+                    </div>
+                </div>
+                <div class="zonhe-ul-row layui-row">
+                    <ul>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/cover/GameApp1.jpg"/>
+                                        <div class="lable-box">阴阳道士驱魔传</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">橙光平台游戏【阴阳道士驱魔传】</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+                                        	算命探险点风水，惊悚侦探降鬼怪，最传统的中国文化，最神秘的灵异传奇!!<br/>
+                                        	本游戏是一款恐怖悬疑类的文字冒险游戏，带有分支剧情等玩法，让我们共同进入沈伟的精彩"驱魔"之路吧!!<br/>
+											此游戏已在平台过审，可以点击链接直接进行游玩，手机电脑均可游玩!! 更多简介请打开游戏页进行查看。
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2020
+										<span>【<a>此游戏暂未制作介绍视频</a>】</span>
+										<span>版本：v1.0&nbsp;&nbsp;<a href="http://www.66rpg.com/game/1541275" target="_blank">点击进行在线试玩</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="look-more layui-row subject-second-color font-color1 text-align-center pane-radius"><a onClick="MessTip()">查看更多</a></div>
+                </div>
+            </div>
+			<div class="zonhe-row layui-row">
+                <div class="item-title-row layui-row row-align">
+                    <div class="layui-col-md10 row-align font-size2">
+                        <div class="left-icon"></div>
+                        <span class="font-bold">HOT !! 热门自制程序集</span>
+                    </div>
+                </div>
+                <div class="zonhe-ul-row layui-row">
+                    <ul>
+                        <li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/OldEightVoiceTools.png"/>
+                                        <div class="lable-box">老八语音包工具</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">老八语音包工具（OldEightVoiceTools）</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											一款老八语音包播放工具，包含撤硕大战系列、老八秘制晓汉堡系列语音包。内置原版OLG系列视频。支持键盘快捷操作及窗口置顶操作。<br/>
+											(Tip：程序内使用的老八语音包素材来自抖音作者：<b>@我是内存条</b>，<b><a href="http://nctqaq.gitee.io/">点此进入我是内存条的官方网站</a></b>)
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2020
+										<span>【<a href="https://www.bilibili.com/video/BV1YV411d7ia" target="_blank">B站视频详情页</a>】</span>
+										<span>
+											选择下载版本：
+											<select id="SelAppLink1" class="layui-select" style="height: 20px;">
+											<optgroup label="最新版">
+												<option value="https://pan.baidu.com/s/1cCTk6B6ILohArzMTIk1yqw" selected>版本：v3.0 三顾茅庐版&nbsp;&nbsp;提取码：jbku</option>
+											</optgroup>
+											<optgroup label="历史版本">
+												<option value="https://pan.baidu.com/s/1PIDs9IrJ2i0ZoN92gxtWlw">版本：v2.0 梅开二度版&nbsp;&nbsp;提取码：3n6h</option>
+												<option value="https://pan.baidu.com/s/1SXV51Z63xLbtVj0enZ2b_Q">版本：v1.0 横空出世版&nbsp;&nbsp;提取码：w0bi</option>
+											</optgroup>
+										</select>
+											<a onClick="ShowAppLink1()">点击下载</a>
+										</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/DVD300NesGames.png"/>
+                                        <div class="lable-box">DVD中文游戏300</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">DVD中文游戏300 PC怀旧版</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											利用WinForm模拟曾经DVD影碟机可以玩的中文游戏300光盘内的游戏程序，包含菜单界面、运行游戏的模拟器及相关游戏ROM文件。
+											程序支持选择页面跳转，游戏启动次数记录等功能。现在让程序带你重温一次童年。找回当年玩手柄游戏的快乐时光！！
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2020
+										<span>【<a href="https://www.bilibili.com/video/BV1hf4y1U7a9" target="_blank">B站视频详情页</a>】</span>
+										<span>版本：v1.2&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1_ddP39ajfHUb3oC6Fnz8Qw" target="_blank">点击下载</a>&nbsp;&nbsp;提取码：dfzd</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/ConfessionArtifact.png"/>
+                                        <div class="lable-box">表白神器</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">表白神器</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											自己制作的一个表白神器小程序，悄悄地放在Ta的电脑里。给Ta一个惊喜(吓)！！<br/>
+											建议食用方法：将程序放在磁盘的某个目录内(藏的越深越好)，然后创建程序的快捷方式到桌面上，把图标改成Ta常用程序的图标。然后，就等着看Ta的反应吧~
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2019
+										<span>【<a href="https://www.bilibili.com/video/BV1uz411B7Tm" target="_blank">B站视频详情页</a>】</span>
+										<span>版本：v1.2&nbsp;&nbsp;<a href="https://pan.baidu.com/s/14aL7O_P9_qv9eF1Kv_Gw6w" target="_blank">点击下载</a>&nbsp;&nbsp;提取码：svrl</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/LocalGameLaunchCenter.png"/>
+                                        <div class="lable-box">本地游戏启动中心</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">本地游戏启动中心（LocalGameLaunchCenter）</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											本程序是一款用于启动本地游戏的快捷工具，可以将分布在本地磁盘内的游戏数据添加到本程序内。这样大大的减少了桌面快捷方式的空间。
+											程序还支持游戏存档备份与恢复、搜索本地游戏、创建喜欢的游戏快捷方式到桌面等多项实用功能。您可以下载体验一下此程序。
+											对那种单机游戏很多的玩家来说很实用方便的。
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2020
+										<span>【<a href="https://www.bilibili.com/video/BV1Sz4y197w8" target="_blank">B站视频详情页</a>】</span>
+										<span>版本：v1.2&nbsp;&nbsp;<a href="https://pan.baidu.com/s/15U-XUwom1mrdzXr4gXJd-w" target="_blank">点击下载</a>&nbsp;&nbsp;提取码：3zhf</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/DongDongNaoCMD.png"/>
+                                        <div class="lable-box">动动脑&#40;益智答题小游戏&#41; </div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">动动脑&#40;益智答题小游戏&#41; 控制台窗口版</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											自己曾经练习编程时写的控制台小程序，包含多种脑筋急转弯、古诗接龙、成语填空等多种解谜玩法。<br/>
+											感受一下CMD窗口玩文字游戏的魅力吧!!<br/><br/>
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2019
+										<span>【<a>此程序暂未制作介绍视频</a>】</span>
+										<span>版本：多版本合集&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1amPDT2basdm0X36vxbNsQQ" target="_blank">点击下载</a>&nbsp;&nbsp;提取码：1ivy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/XiaoJiCourse.png"/>
+                                        <div class="lable-box">小鸡模拟器 教程程序</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">小鸡模拟器 教程程序</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											自己将小鸡模拟器PC版使用的常见问题及模拟器按键映射教程都制作到里面了，在使用PC版小鸡模拟器中遇到问题可以在此程序内看看有没有您遇到的问题。
+											如果没有您遇到的问题的解决方案。可以加我创建的<b>小鸡模拟器问题解答QQ群：523686892</b>。
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2016
+										<span>【<a>此程序暂未制作介绍视频</a>】</span>
+										<span>版本：多版本合集&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1biz5k1iUqlZJRrSwk8Jn3w" target="_blank">点击下载</a>&nbsp;&nbsp;提取码：zew4</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/JPFCSinicizationTools.png"/>
+                                        <div class="lable-box">极品飞车9 汉化器</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">极品飞车9：最高通缉 汉化器</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											PC版<b>极品飞车9：最高通缉</b>的汉化工具，包含32位与64位系统的汉化注册表以及使用方法。<br/><br/><br/>
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2015
+										<span>【<a>此程序暂未制作介绍视频</a>】</span>
+										<span>版本：Beta v1.2&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1gcJBJVjF4dHYpCsqd5NZqA" target="_blank">点击下载</a>&nbsp;&nbsp;提取码：z7f4</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="zonhe-libox layui-row subject-second-color pane-radius">
+                                <div class="zonheimg-box-parent layui-col-md3">
+                                    <div class="zonhe-li-imgbox pane-radius">
+                                        <img src="imgs/ROMDownload.png"/>
+                                        <div class="lable-box">炎凉立夏ROM下载器</div>
+                                    </div>
+                                </div>
+                                <div class="zonheimg-box-parent2 layui-col-md9">
+                                    <div class="zonhe-lititle layui-row layui-elip">
+                                        <h3><span style="color: white;font-weight: bold;">炎凉立夏手机ROM下载器</span></h3>
+                                    </div>
+                                    <div class="zonhe-limsg layui-row">
+                                        <p>
+											安卓ROM下载工具，可以下载多种品牌的安卓手机刷机包。使用此程序可以下载对应手机的刷机包。来修复/升级手机系统。
+											或者体验网友制作的包含功能插件的刷机包，让你的手机功能不再单一。<br/><br/>
+										</p>
+                                    </div>
+                                    <div class="zonhe-param layui-row">
+                                        发布时间：2016
+										<span>【<a>此程序暂未制作介绍视频</a>】</span>
+										<span>版本：v1.0&nbsp;&nbsp;<a href="https://pan.baidu.com/s/1Wk-Dfo_dmVJWY1aInq_HWw">点击下载</a>&nbsp;&nbsp;提取码：rkai</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="look-more layui-row subject-second-color font-color1 text-align-center pane-radius"><a onClick="MessTip()">查看更多</a></div>
+                </div>
+            </div>
+			<div class="type-module layui-row layui-col-space20">
+                <div class="layui-col-md6">
+                    <div class="type-module-item layui-row">
+                        <div class="item-title-row layui-row row-align">
+                            <div class="layui-col-md10 row-align font-size2">
+                                <div class="left-icon"></div>
+                                <span class="font-bold">自制程序集</span>
+                            </div>
+                            <div class="layui-col-md2 text-align-right text-underline only-pointer font-size1 font-color3">
+                                <a onClick="MessTip()">更多</a>
+                            </div>
+                        </div>
+                        <div class="item-ul-row layui-row">
+                            <ul>
+                                <li>
+                                    <div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/1cCTk6B6ILohArzMTIk1yqw" target="_blank">老八语音包工具</a></div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：jbku</div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">2020-05-14</div>
+                                    </div>
+									<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/1_ddP39ajfHUb3oC6Fnz8Qw" target="_blank">DVD中文游戏300 PC怀旧版</a></div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：dfzd</div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">2020-01-28</div>
+                                    </div>
+									<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/15U-XUwom1mrdzXr4gXJd-w" target="_blank">本地游戏启动中心</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：3zhf</div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">2020-03-13</div>
+                                    </div>
+									<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/14aL7O_P9_qv9eF1Kv_Gw6w" target="_blank">表白神器</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：svrl</div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">2019-05-24</div>
+                                    </div>
+									<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/1biz5k1iUqlZJRrSwk8Jn3w" target="_blank">小鸡模拟器 教程程序</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：zew4</div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">2018-02-03</div>
+                                    </div>
+									<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/1amPDT2basdm0X36vxbNsQQ" target="_blank">动动脑&#40;益智答题小游戏&#41; 控制台版</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：1ivy</div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">2019-04-17</div>
+                                    </div>
+									<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/1gcJBJVjF4dHYpCsqd5NZqA" target="_blank">极品飞车9：最高通缉 汉化器</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：z7f4</div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">2015-12-07</div>
+                                    </div>
+									<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="https://pan.baidu.com/s/1Wk-Dfo_dmVJWY1aInq_HWw" target="_blank">炎凉立夏手机ROM下载器</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">提取码：rkai</div>
+										<div class="layui-col-md3 text-align-right font-size1 font-color3">2016-11-30</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="layui-col-md6">
+                    <div class="type-module-item layui-row">
+                        <div class="item-title-row layui-row row-align">
+                            <div class="layui-col-md10 row-align font-size2">
+                                <div class="left-icon"></div>
+                                <span class="font-bold">自制游戏集</span>
+                            </div>
+                            <div class="layui-col-md2 text-align-right text-underline only-pointer font-size1 font-color3">
+                                <a onClick="MessTip()">更多</a>
+                            </div>
+                        </div>
+                        <div class="item-ul-row layui-row">
+                            <ul>
+                                <li>
+                                    <div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="http://www.66rpg.com/game/1541275" target="_blank">橙光平台游戏【阴阳道士驱魔传】</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">2020-06-09</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="layui-col-md6">
+                    <div class="type-module-item layui-row">
+                        <div class="item-title-row layui-row row-align">
+                            <div class="layui-col-md10 row-align font-size2">
+                                <div class="left-icon"></div>
+                                <span class="font-bold">资源分享专区</span>
+                            </div>
+                            <div class="layui-col-md2 text-align-right text-underline only-pointer font-size1 font-color3">
+                                <a onClick="MessTip()">更多</a>
+                            </div>
+                        </div>
+                        <div class="item-ul-row layui-row">
+                            <ul>
+                                <li>
+                                    <div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="#">内容即将更新，敬请期待!!</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">2020-06-20</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-col-md6">
+                    <div class="type-module-item layui-row">
+                        <div class="item-title-row layui-row row-align">
+                            <div class="layui-col-md10 row-align font-size2">
+                                <div class="left-icon"></div>
+                                <span class="font-bold">工具推荐</span>
+                            </div>
+                            <div class="layui-col-md2 text-align-right text-underline only-pointer font-size1 font-color3">
+                                <a onClick="MessTip()">更多</a>
+                            </div>
+                        </div>
+                        <div class="item-ul-row layui-row">
+                            <ul>
+                                <li>
+                                	<div class="ul-li-div layui-row row-align">
+                                        <div class="layui-col-md9 layui-elip font-size2">&gt; &nbsp;<a href="#">内容即将更新，敬请期待!!</a></div>
+                                        <div class="layui-col-md3 text-align-right font-size1 font-color3">2020-06-22</div>
+                                    </div>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        <div class="youqing-url layui-row">
+            <div class="item-title-row layui-row row-align">
+                <div class="layui-col-md10 row-align font-size2">
+                    <div class="left-icon"></div>
+                    <span class="font-bold">友情链接</span>
+                </div>
+            </div>
+            <div class="url-box layui-row">
+				获取更多海量语音包请访问：<b><a href="http://nctqaq.gitee.io/"  target="_blank">我是内存条的官方网站</a></b>
+            </div>
+        </div>
+        </div>
+        <div class="item-right">
+            <div class="right-one-row layui-row pane-bg-radius">
+                <div class="visit-img-box top-radius">
+                    <img src="imgs/canreplace/headimgbg.jpg" class="top-radius"/>
+                </div>
+                <div class="headimg-box">
+                    <img src="imgs/canreplace/MeTitle.jpg"/>
+                </div>
+                <div class="nickname layui-row row-align text-align-center">
+                    炎凉立夏
+                    <span><img src="imgs/icon/man.png" height="32" width="32"/></span>
+                </div>
+                <div class="padding-hr layui-row common-padding-x">
+                    <div class="hr-line-div"></div>
+                </div>
+                <div class="mine-msg layui-row common-padding font-size1 font-color5">
+                	<div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">职业 ：</div>
+                        <div class="msg-val layui-col-md9">软件工程师&nbsp;(程序猿)</div>
+                    </div>
+                    <div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">现居地 ：</div>
+                        <div class="msg-val layui-col-md9">辽宁省-葫芦岛市</div>
+                    </div>
+                    <div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">Q Q ：</div>
+                        <div class="msg-val layui-col-md9">2213407066</div>
+                    </div>
+					<div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">微信 ：</div>
+                        <div class="msg-val layui-col-md9">CodeFarmingLei</div>
+                    </div>
+					<div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">手机号 ：</div>
+                        <div class="msg-val layui-col-md9">17542914396</div>
+                   </div>
+                    <div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">Email ：</div>
+                        <div class="msg-val layui-col-md9">codelei@163.com</div>
+                    </div>
+                    <div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">B站：</div>
+                        <div class="msg-val layui-col-md9">@炎凉立夏</div>
+                    </div>
+                    <div class="layui-row row-align">
+                        <div class="msg-name layui-col-md3">抖音 ：</div>
+                        <div class="msg-val layui-col-md9">@炎凉立夏</div>
+                    </div>
+                </div>
+                <div class="row-hr layui-row">
+                    <div class="row-hr-line-div"></div>
+                </div>
+            </div>
+			<div class="right-guangao layui-row box-bg">
+                <img src="imgs/My.jpg">
+            </div>
+			<div class="sharetype-list-box box-bg">
+                <div class="pane-title layui-row row-align">
+                    <img src="imgs/icon/lingxing.png">
+                    <span>个性签名</span>
+                </div>
+                <div class="web-msg">
+					<p style="text-align: center; font-size: 16px;">
+					世界的精彩<br/><br/>
+					在于追求梦想路上的点点滴滴 <br/>
+					</p>
+				</div>
+            </div>
+            <div class="sharetype-list-box box-bg">
+                <div class="pane-title layui-row row-align">
+                    <img src="imgs/icon/lingxing.png">
+                    <span>个人空间站</span>
+                </div>
+                <ul>
+                    <li class="list-item layui-row layui-elip"><a href="http://me.csdn.net/qq_32807945" target="_blank">CSDN【编程相关知识分享】</a></li>
+                    <li class="list-item layui-row layui-elip"><a href="http://user.qzone.qq.com/2213407066" target="_blank">QQ空间【日常动态更新】</a></li>
+                    <li class="list-item layui-row layui-elip"><a href="http://weibo.com/CodeFarmingLei" target="_blank">Weibo微博【日常动态更新】</a></li>
+                    <li class="list-item layui-row layui-elip"><a href="http://www.linkedin.com/in/codefarminglei/" target="_blank">Linkedin领英【个人简历空间】</a></li>
+                    <li class="list-item layui-row layui-elip"><a href="http://bcy.net/u/1485441" target="_blank">bcy半次元【二次元动态更新】</a></li>
+                    <li class="list-item layui-row layui-elip"><a href="http://space.bilibili.com/21018717" target="_blank">bilibili哔哩哔哩【原创视频分享】</a></li>
+                    <li class="list-item layui-row layui-elip"><a href="http://github.com/CodeFarmingLei" target="_blank">GitHub【自制程序源码存储库：国际版】</a></li>
+                    <li class="list-item layui-row layui-elip"><a href="http://gitee.com/CodeFarmingLei" target="_blank">Gitee码云【自制程序源码存储库：国内版】</a></li>
+                </ul>
+            </div>
+            <div class="sharetype-list-box box-bg">
+                <div class="pane-title layui-row row-align">
+                    <img src="imgs/icon/lingxing.png">
+                    <span>原创程序作品</span>
+                </div>
+                <ul>
+                    <li class="list-item layui-row layui-elip"><a>PC程序【老八语音包工具】</a></li>
+					<li class="list-item layui-row layui-elip"><a>PC程序【DVD中文游戏300 PC怀旧版】</a></li>
+					<li class="list-item layui-row layui-elip"><a>PC程序【本地游戏启动中心】</a></li>
+					<li class="list-item layui-row layui-elip"><a>PC程序【表白神器】</a></li>
+					<li class="list-item layui-row layui-elip"><a>PC程序【小鸡模拟器 教程程序】</a></li>
+					<li class="list-item layui-row layui-elip"><a>PC程序【动动脑益智答题游戏 控制台版】</a></li>
+					<li class="list-item layui-row layui-elip"><a>PC程序【极品飞车9：最高通缉 汉化器】</a></li>
+					<li class="list-item layui-row layui-elip"><a>PC程序【炎凉立夏手机ROM下载器】</a></li>
+                </ul>
+            </div>
+			<div class="sharetype-list-box box-bg">
+                <div class="pane-title layui-row row-align">
+                    <img src="imgs/icon/lingxing.png">
+                    <span>原创游戏作品</span>
+                </div>
+                <ul>
+                    <li class="list-item layui-row layui-elip"><a>橙光平台游戏【阴阳道士驱魔传】</a></li>
+                </ul>
+            </div>
+            <div class="sharetype-list-box box-bg">
+                <div class="pane-title layui-row row-align">
+                    <img src="imgs/icon/lingxing.png">
+                    <span>至理名言</span>
+                </div>
+                <ul>
+                    <li class="list-item layui-row layui-elip"><a>人生没有如果，只有后果和结果。</a></li>
+					<li class="list-item layui-row layui-elip"><a>世上没有绝望的处境，只有对处境绝望的人。</a></li>
+					<li class="list-item layui-row layui-elip"><a>忘记过去，把握现在，收获未来。</a></li>
+					<li class="list-item layui-row layui-elip"><a>善于利用时间的人，永远找得到充裕的时间。</a></li>
+					<li class="list-item layui-row layui-elip"><a>只要心中有梦想，你就会与众不同。</a></li>
+					<li class="list-item layui-row layui-elip"><a>站在新起点，迎接新挑战，创造新成绩。</a></li>
+                </ul>
+            </div>
+            <div class="sharetype-list-box box-bg">
+                <div class="pane-title layui-row row-align">
+                    <img src="imgs/icon/lingxing.png">
+                    <span>自绘简笔画</span>
+                </div>
+                <ul>
+                    <li class="list-item layui-row layui-elip"><a>星之卡比</a></li>
+                </ul>
+                <img src="imgs/Kirby_1.png" style="width: 250;height: 250px;text-align: center;">
+                <img src="imgs/Kirby_2.png" style="width: 250;height: 250px;text-align: center;">
+                <img src="imgs/Kirby_3.png" style="width: 250;height: 250px;text-align: center;">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-box">
+            <div class="main-content">
+                <span><strong>Copyright</strong> &nbsp;2016-2020&nbsp; by&nbsp; &copy;炎凉立夏</span>
+				<span>选择您想访问的个人空间站：
+					<select id="SelMyLink" class="layui-select">
+						<optgroup label="社区&博客网站">
+							<option value="http://me.csdn.net/qq_32807945" selected>CSDN</option>
+							<option value="http://user.qzone.qq.com/2213407066">QQ空间</option>
+							<option value="http://weibo.com/CodeFarmingLei">weibo微博</option>
+							<option value="http://www.linkedin.com/in/codefarminglei/">Linkedin领英</option>
+							<option value="http://bcy.net/u/1485441">bcy半次元</option>
+						</optgroup>
+						<optgroup label="视频空间网站">
+							<option value="http://space.bilibili.com/21018717">bilibili哔哩哔哩</option>
+						</optgroup>
+						<optgroup label="自制程序源代码存储库网站">
+							<option value="http://github.com/CodeFarmingLei">GitHub</option>
+							<option value="http://gitee.com/CodeFarmingLei">Gitee码云</option>
+						</optgroup>
+					</select>
+					<button onClick="ShowMyLink()" class="layui-btn">点击访问选择的页面</button>
+				</span>
+				<span>感谢您访问我的博客网站 *^_^* !!</span>
+            </div>
+        </div>
+    </footer>
+<script>
+	/*点击按钮跳转页面相关事件*/
+	//我的个人空间
+	function ShowMyLink(){
+		var SelLink = document.getElementById("SelMyLink");
+		var Link = SelLink.options[SelLink.selectedIndex].value;
+		window.location.href = Link;
+	}
+	//老八语音包工具
+	function ShowAppLink1(){
+		var SelLink = document.getElementById("SelAppLink1");
+		var Link = SelLink.options[SelLink.selectedIndex].value;
+		window.location.href = Link;
+	}
+	//页面提示框事件
+	function MessTip(){
+		alert("功能正在开发中，敬请期待...");
+	}
+    layui.use(['carousel','jquery','layer'], function(){
+        var carousel = layui.carousel;
+        var $=layui.$;
+        var layer=layui.layer;
+        //页面顶部轮播图片控件属性
+        carousel.render({
+            elem:'#my-carousel',
+            width:'100%',
+            height:'350px',
+            anim:'fade',
+            interval:10000
+        });
+        //监听轮播切换事件
+        var carouselTextArr=[	//轮播页显示的标题文字
+            '自制游戏【阴阳道士驱魔传】',
+            '自制程序【老八语音包工具】',
+            '自制程序【DVD中文游戏300 PC怀旧版】',
+            '自制程序【本地游戏启动器】',
+			'自制程序【表白神器】',
+			'自绘简笔画【星之卡比】',
+            '欢迎访问我的博客空间'
+        ];
+        carousel.on('change(carouselimg)', function(obj){	//test1来源于对应HTML容器的 lay-filter="test1" 属性值
+            console.log(obj.index);	//当前条目的索引
+            console.log(obj.prevIndex);	//上一个条目的索引
+            console.log(obj.item);	//当前条目的元素对象
+            $(".lunbo-textbox a").text(carouselTextArr[obj.index]);	//设置显示的文本值
+        });
+    });
+</script>
+</body>
+</html>
